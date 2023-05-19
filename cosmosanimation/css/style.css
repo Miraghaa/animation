@@ -1,0 +1,399 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.cosmos{
+    background-image: url(../picture/space-nebula-3d-illustration-use-with-projects-science-research-education_250994-2401.avif);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.sun{
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    transform: rotate(360deg);
+    animation: suns 25s linear infinite;
+}
+ @keyframes suns{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 
+.merkuri{
+    width: 3%;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: rotate(360deg);
+    animation: merkur 20s linear infinite;
+}
+
+  @keyframes merkur {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    0%{
+       top: 45%;
+       left: 55%;
+    }    
+    2%{
+        top: 39%;
+        left: 53.5%;
+    }
+    5%{
+        top: 38%;
+        left: 53%;
+    }
+    10%{
+        top: 38%;
+        left: 52.5%;
+    }
+    15%{
+        top: 37%;
+        left: 52%;
+    }
+    20%{
+        top: 36%;
+        left: 51%;
+    }
+    23%{
+        top: 35%;
+        left: 50%;
+    }
+    25%{
+        top: 34%;
+        left: 49%;
+    }
+    28%{
+        top: 34%;
+        left: 46.5%;
+    }
+    30%{
+        top: 35%;
+        left: 46%;
+    }
+    35%{
+        top: 38%;
+        left: 45;
+    }
+    40%{
+        top: 39%;
+        left: 44;
+    }
+    45%{
+        top: 40%;
+        left: 43%;
+    }
+    50%{
+        top: 45%;
+        left: 43%;
+    }
+    55%{
+        top: 48%;
+        left: 44;
+    }
+    60%{
+        top: 50%;
+        left: 44%;
+    }
+    65%{
+        top: 53.5%;
+        left: 44.5%;
+    }
+    70%{
+        top: 54%;
+        left: 45.5%;
+    }
+    73%{
+        top: 55%;
+        left: 46%;
+    }
+    75%{
+        top: 57%;
+        left: 48%;
+    }
+    78%{
+        top: 56%;
+        left: 50.5%;
+    }
+    80%{
+        top: 54;
+        left: 52%;
+    }
+    85%{
+        top: 52%;
+        left: 53%;
+    }
+    90%{
+        top: 50%;
+        left: 54%;
+    }
+    95%{
+        top: 48%;
+        left: 54%;
+    }
+    100%{
+        top: 45%;
+        left: 55%;
+    }
+}  
+
+
+.mars{
+    width: 6%;
+    position: absolute;
+    top: 43%;
+    left: 58%;
+    transform: rotate(360deg);
+    animation: mar 45s linear infinite;
+}
+@keyframes mar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    0%{
+       top: 43%;
+       left: 58%;
+    }    
+    5%{
+        top: 38%;
+        left: 57.5%;
+    }
+    10%{
+        top: 34%;
+        left: 56.5%;
+    }
+    15%{
+        top: 30%;
+        left: 54.5%;
+    }
+    20%{
+        top: 27%;
+        left: 53.5%;
+    }
+    23%{
+        top: 26%;
+        left: 50.5%;
+    }
+    25%{
+        top: 25%;
+        left: 48.5%;
+    }
+    28%{
+        top: 25%;
+        left: 45%;
+    }
+    30%{
+        top: 26%;
+        left: 40.5%;
+    }
+    35%{
+        top: 28%;
+        left: 39%;
+    }
+    40%{
+        top: 34%;
+        left: 38.5%;
+    }
+    45%{
+        top: 38%;
+        left: 38.5%;
+    }
+    50%{
+        top: 43%;
+        left: 37%;
+    }
+    55%{
+        top: 48%;
+        left: 37;
+    }
+    60%{
+        top: 53%;
+        left: 39%;
+    }
+    65%{
+        top: 56%;
+        left: 41%;
+    }
+    70%{
+        top: 60%;
+        left: 44.5%;
+    }
+    73%{
+        top: 61%;
+        left: 48.5%;
+    }
+    75%{
+        top: 61%;
+        left: 48.5%;
+    }
+    78%{
+        top: 60%;
+        left: 50.5%;
+    }
+    80%{
+        top: 59;
+        left: 51.5%;
+    }
+    85%{
+        top: 56%;
+        left: 54.5%;
+    }
+    90%{
+        top: 52%;
+        left: 56.5%;
+    }
+    95%{
+        top: 48%;
+        left: 58.5%;
+    }
+    100%{
+        top: 43%;
+        left: 58%;
+    }
+} 
+.earth{
+    width: 6%;
+    position: absolute;
+    top: 43%;
+    left: 65%;
+    transform: rotate(360deg);
+    animation: eart 65s linear infinite;
+}
+@keyframes eart {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    0%{
+        top: 43%;
+        left: 65%;
+     } 
+     5%{
+        top: 39%;
+        left: 64%;
+     }
+     8%{
+        top: 36%;
+        left: 63%;
+     }
+     11%{
+        top: 31%;
+        left: 63%;
+     }
+     15%{
+        top: 27%;
+        left: 62%;
+     }
+     18%{
+        top: 16%;
+        left: 56%;
+     }
+     21%{
+        top: 14%;
+        left: 51%;
+     }
+     25%{
+        top: 13%;
+        left: 47%;
+    }
+    29%{
+        top: 15%;
+        left: 43%;
+     }
+    32%{
+        top: 17%;
+        left: 35%;
+     }
+     36%{
+        top: 27%;
+        left: 33%;
+     }
+     40%{
+        top: 31%;
+        left: 33%;
+     }
+     43%{
+        top: 35%;
+        left: 31%;
+     }
+     46%{
+        top: 39%;
+        left: 30%;
+     }
+    50%{
+        top: 43%;
+        left: 29%;
+    }
+    55%{
+        top: 47%;
+        left: 30%;
+     }
+    58%{
+        top: 51%;
+        left: 31%;
+     }
+    61%{
+        top: 57%;
+        left: 34%;
+     }
+    65%{
+        top: 60%;
+        left: 35%;
+     }
+    68%{
+        top: 66%;
+        left: 39%;
+     }
+    71%{
+        top: 67%;
+        left: 42%;
+     }
+    75%{
+        top: 72%;
+        left: 47%;
+    }
+    79%{
+        top: 69%;
+        left: 53%;
+     }
+    82%{
+        top: 66%;
+        left: 57%;
+     }
+    86%{
+        top: 60%;
+        left: 60%;
+     }
+    90%{
+        top: 57%;
+        left: 62%;
+     }
+    93%{
+        top: 50%;
+        left: 64%;
+     }
+    96%{
+        top: 47%;
+        left: 65%;
+     }
+    100%{
+        top: 43%;
+        left: 65%;
+    } 
+}
